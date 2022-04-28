@@ -52,7 +52,7 @@ pipeline {
           steps {
              script {
                sh '''
-                   echo ravenravel | docker login -u ravenravel --password-stdin
+                   echo RaDo@007#2022 | docker login -u ravenravel --password-stdin
                    docker push ravenravel/$IMAGE_NAME:$IMAGE_TAG
                '''
              }
